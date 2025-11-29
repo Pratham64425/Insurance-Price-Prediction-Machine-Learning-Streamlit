@@ -1,0 +1,203 @@
+/* ===========================
+   GLOBAL BACKGROUND
+=========================== */
+body, .stApp {
+    background: linear-gradient(180deg, #ff772a, #ff6200, #ff4d00) !important;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff !important;
+}
+
+/* ===========================
+   TEXT & HEADINGS
+=========================== */
+h1, h2, h3 {
+    font-weight: 900 !important;
+    color: #ffffff !important;
+    letter-spacing: 0.5px;
+}
+
+p, li {
+    font-size: 17px !important;
+    line-height: 1.65 !important;
+    color: #ffffff !important;
+    opacity: 0.95;
+}
+
+/* ===========================
+   HERO TITLE & SUBTITLE
+=========================== */
+.hero-title {
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+/* ===========================
+   BUTTON STYLE
+=========================== */
+.stButton > button {
+    background: #f70a0a !important;
+    color: #ffffff !important;
+    font-size: 18px !important;
+    padding: 14px 18px !important;
+    border-radius: 18px !important;
+    border: none !important;
+    width: 100%;
+    font-weight: 800 !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+
+.stButton > button:hover {
+    background: #cc0000 !important;
+    transform: scale(1.06);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.30);
+}
+
+/* ===========================
+   FIX BUTTON CHILD TEXT 
+=========================== */
+.stButton > button * {
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    text-shadow: none !important;
+}
+
+/* ===========================
+   ABOUT PAGE CARD
+=========================== */
+.about-card {
+    background: rgba(255,255,255,0.11);
+    padding: 45px;
+    border-radius: 25px;
+    margin: 35px auto;
+    width: 92%;
+    max-width: 1400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.30);
+    backdrop-filter: blur(6px);
+}
+
+/* ===========================
+   IMAGES
+=========================== */
+img {
+    margin: 15px auto !important;
+    display: block;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+.footer {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #cc0000;
+}
+
+/* ===========================
+   PREMIUM RESULT BOX
+=========================== */
+.premium-box {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px 30px;
+    border-radius: 18px;
+    width: fit-content;
+    margin: 20px auto;
+    backdrop-filter: blur(6px);
+
+    border: 3px solid #ffffffaa;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.35);
+
+    font-size: 32px !important;
+    font-weight: 900 !important;
+    color: #ffffff !important;
+    text-align: center;
+}
+
+/* ===========================
+   PRODUCT CARDS
+=========================== */
+.product-card {
+    background: #ffffff;
+    border-radius: 22px;
+    padding: 25px;
+    margin-top: 20px;
+    text-align: left;
+    height: 250px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.product-icon {
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin-top: -10px;
+}
+
+.product-title {
+    color: #333 !important;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.product-text {
+    color: #333 !important;
+    font-size: 25px;
+    line-height: 2;
+}
+
+/* ===========================
+   LOGO STYLE
+=========================== */
+.icici-logo {
+    display: block;
+    margin-left: 40px;
+    margin-top: 20px;
+    filter: drop-shadow(0px 3px 6px rgba(0,0,0,0.25));
+}
+
+/* ===========================
+   CAROUSEL (AUTO-SLIDE CARDS)
+=========================== */
+.carousel {
+    animation: fadeSlide 1s ease-in-out;
+}
+
+@keyframes fadeSlide {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Card look for carousel */
+.feature-card {
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 18px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0,0,0,0.35);
+    transition: 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(255,255,255,0.45);
+}
+
+.card-title {
+    color: #ffffff !important;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.card-text {
+    color: #f0f0f0 !important;
+    font-size: 15px;
+}
